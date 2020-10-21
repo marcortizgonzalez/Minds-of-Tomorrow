@@ -1,0 +1,54 @@
+* {
+    box-sizing: border-box;
+    font-family: 'Quicksand', sans-serif;
+}
+
+body {
+    margin: 0;
+}
+
+
+/* Style the header */
+
+.header {
+    background-image: url('../img/banner-2.jpg');
+    background-size: cover;
+    padding: 10% 20px;
+    text-align: center;
+    background-position: top;
+    background-attachment: fixed;
+}
+
+.header h1 {
+    font-size: 90px;
+    color: #000000
+}
+
+
+/* Estilos columns */
+
+.two-column h1 {
+    text-align: left;
+    font-size: 60px;
+    width: 50%;
+}
+
+.two-column h2 {
+    text-align: left;
+    font-size: 30px;
+    width: 50%;
+}
+
+.two-column img {
+    width: 50%;
+    float: right;
+}
+
+
+/* Clear floats after the columns */
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
